@@ -1,0 +1,20 @@
+[package]
+name = "cpi_puppet_master"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "cpi_puppet_master"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+cpi_puppet = { path = "../cpi_puppet", features = ["cpi"] }
+anchor-lang = "0.19.0"

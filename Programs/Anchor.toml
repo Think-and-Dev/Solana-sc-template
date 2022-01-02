@@ -1,0 +1,17 @@
+[programs.localnet]
+basic0 = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnB"
+example_test = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+account_validate = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnQ"
+cpi_puppet_master = "HmbTLCmaGvZhKnn1Zfa1JVnp7vkMV4DYVxPLWBVoN65L"
+cpi_puppet = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnT"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/alejo-mac-thinkdev/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
+test_ts = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

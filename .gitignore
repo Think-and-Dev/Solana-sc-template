@@ -1,0 +1,7 @@
+
+Programs/.anchor
+Programs/.DS_Store
+Programs/target
+Programs/**/*.rs.bk
+Programs/node_modules
+.envrc
