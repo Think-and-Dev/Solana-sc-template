@@ -11,9 +11,10 @@
 1. Basic0
 2. Arguments (example_test)
 2. Accounts validation (account_validate)
-3. Cross Program Invocation (cpi) ---> WIP
-  * puppet_master: 
-  * puppet:
+3. Cross Program Invocation (cpi)
+  * cpi_puppet_master: the program caller.
+  * cpi_puppet: the program to be called.
+4. Logging
 
 ### Start a proyect
 
